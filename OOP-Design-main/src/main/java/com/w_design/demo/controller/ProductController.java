@@ -19,7 +19,6 @@ public class ProductController {
     @PostMapping("addProduct")
     public Product addProduct(@RequestBody Product product){
         System.out.println(product);
-        System.out.println("test");
         return product;
     }
 
